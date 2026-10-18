@@ -1,0 +1,54 @@
+{
+  "observations": 252,
+  "estimation_observations": 60,
+  "max_weight": 0.6,
+  "asset_estimated_annualized_volatility": {
+    "equity": 0.22730393380768985,
+    "bonds": 0.07540069484018638,
+    "commodities": 0.13020000411610191,
+    "cash": 0.004032437419614891
+  },
+  "weights": {
+    "equal_weight": {
+      "equity": 0.25,
+      "bonds": 0.25,
+      "commodities": 0.25,
+      "cash": 0.25
+    },
+    "inverse_vol": {
+      "equity": 0.06943939153357812,
+      "bonds": 0.2093329098657373,
+      "commodities": 0.12122769860068461,
+      "cash": 0.6
+    }
+  },
+  "strategies": {
+    "equal_weight": {
+      "total_return": 0.027218943984386845,
+      "annualized_geometric_return": 0.03587586339316373,
+      "annualized_volatility": 0.06141273610929663,
+      "annualized_downside_deviation": 0.04137575979955355,
+      "annualized_sharpe_zero_rf": 0.6045151130580608,
+      "maximum_drawdown": 0.04350335726437915,
+      "daily_win_rate": 0.515625,
+      "best_daily_return": 0.013319355886368598,
+      "worst_daily_return": -0.010794278119564089,
+      "historical_var_95_daily": 0.005601234350243012,
+      "historical_cvar_95_daily": 0.007421231308910434
+    },
+    "inverse_vol": {
+      "total_return": 0.024233028699538917,
+      "annualized_geometric_return": 0.03192561813387251,
+      "annualized_volatility": 0.026667571431578416,
+      "annualized_downside_deviation": 0.01726859143956239,
+      "annualized_sharpe_zero_rf": 1.1917908047458965,
+      "maximum_drawdown": 0.018561333492996678,
+      "daily_win_rate": 0.53125,
+      "best_daily_return": 0.005474571655862813,
+      "worst_daily_return": -0.004723111945656024,
+      "historical_var_95_daily": 0.00244045512434005,
+      "historical_cvar_95_daily": 0.0031370708314438305
+    }
+  },
+  "caveat": "Synthetic sample only; weights are fixed after an initial estimation window."
+}
